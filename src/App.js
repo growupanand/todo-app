@@ -59,7 +59,7 @@ export default function App() {
               </form>
               {tasks.length > 0 ?
                   <p className="text-end">
-                    <button onClick={empty_tasks} className="btn btn-light border text-danger fw-bold btn-sm">Empty Tasks</button>
+                    <button onClick={empty_tasks} className="btn btn-danger fw-bold btn-sm">Empty Tasks</button>
                   </p>:
               <p className="text-muted">No Tasks</p>}
             </div>
